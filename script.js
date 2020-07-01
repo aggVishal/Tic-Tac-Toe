@@ -41,13 +41,13 @@ function entry(i, j) {
 
     if (flag == 0) {
         arr[i][j] = 'X';
-        document.getElementById('f' + i + j).style.backgroundColor = 'blue';
+        document.getElementById('f' + i + j).style.backgroundColor = 'black';
 
         flag++;
     }
     else {
         arr[i][j] = 'O';
-        document.getElementById('f' + i + j).style.backgroundColor = 'khaki';
+        document.getElementById('f' + i + j).style.backgroundColor = 'grey';
 
         flag--;
     }
