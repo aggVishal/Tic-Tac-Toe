@@ -1,7 +1,11 @@
+body{
+    background-color: rgb(182, 219, 205);
+}
 .red-box
 {
     width: 5em;
     height: 5em;
+    margin-left: 5px;
     border:2px solid black;
     background-color: white;
         
